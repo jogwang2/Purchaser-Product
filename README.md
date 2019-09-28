@@ -12,14 +12,14 @@ Setup:
    // you can also edit the .env file for a different db config
 3. to test the api, run symfony server:start at the repository's root
 4. using Postman, you can now check the following endpoints
-   a. POST /purchaser 
+   1. POST /purchaser 
       - sample body: "{ "name": "Bob" }"
-   b. POST /product
+   2. POST /product
       - sample body: "{ "name": "Tomato" }"
-   c. POST /purchaser-product
+   3. POST /purchaser-product
       - sample body: "{ "purchaser_id": 1,
          "product_id": 5,
          "purchase_timestamp": 1566265701 }"
-   d. GET /purchaser/{$purchaser_id}/product?start_date={$start_date}&end_date={$end_date}
+   4. GET /purchaser/{$purchaser_id}/product?start_date={$start_date}&end_date={$end_date}
 
 
