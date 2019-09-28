@@ -2,9 +2,9 @@
 Rest Api involving creating products, purchasers, and purchased products 
 
 Pre-requisite:
-Symfony 4 is installed
-MySQL is installed
-Make sure Apache and MySQL services are running (I usually use xampp app to start/stop these services)
+1. Symfony 4 is installed
+2. MySQL is installed
+3. Make sure Apache and MySQL services are running (I usually use xampp app to start/stop these services)
 
 Setup:
 1. download the files in this repository
